@@ -3,66 +3,102 @@ https://pabloeldolape.github.io/pablo/
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tienda - BlindadosRP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda BlindadosRP</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
       margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #6200ea;
       padding: 20px;
-    }
-    .tienda {
-      max-width: 800px;
-      margin: auto;
-    }
-    h1 {
-      color: #FFD700;
       text-align: center;
     }
-    .categoria {
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .category {
       background-color: #1e1e1e;
-      border-left: 5px solid #FFD700;
-      margin-bottom: 20px;
+      border-left: 5px solid #bb86fc;
       padding: 15px;
+      margin-bottom: 20px;
       border-radius: 8px;
     }
-    .categoria h2 {
-      color: #FFD700;
+
+    .category h2 {
+      color: #bb86fc;
+      margin-bottom: 10px;
     }
-    .categoria p {
-      margin: 5px 0;
+
+    .item {
+      margin-left: 15px;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <div class="tienda">
-    <h1>🛒 Tienda de BlindadosRP</h1>
 
-    <div class="categoria">
-      <h2>🔫 Mafias</h2>
-      <p>• Nivel 1: <strong>$4000</strong></p>
-      <p>• Nivel 2: <strong>$5000</strong></p>
-      <p>• Nivel 3: <strong>$6000</strong></p>
-      <p>📌 Cada nivel incluye distintos beneficios.</p>
-    </div>
+<header>
+  <h1>🛒 Tienda BlindadosRP</h1>
+</header>
 
-    <div class="categoria">
-      <h2>🧩 Addons</h2>
-      <p>• Autos: <strong>$7000</strong></p>
-      <p>• Helicópteros: <strong>$11000</strong></p>
-      <p>• Barcos: <strong>$17000</strong></p>
-      <p>📌 Todos los addons son exclusivos y personalizados.</p>
-    </div>
+<div class="container">
 
-    <div class="categoria">
-      <h2>🏠 Casas</h2>
-      <p>• Con garage: <strong>$5000</strong></p>
-      <p>• Sin garage: <strong>$3500</strong></p>
-      <p>📌 Ubicaciones a elección dentro de disponibilidad.</p>
-    </div>
+  <div class="category">
+    <h2>🔫 Mafias</h2>
+    <div class="item">• Nivel 1: <strong>$4000</strong> – Acceso básico</div>
+    <div class="item">• Nivel 2: <strong>$5000</strong> – Incluye armas y territorios</div>
+    <div class="item">• Nivel 3: <strong>$6000</strong> – Todo incluido + aliados</div>
   </div>
+
+  <div class="category">
+    <h2>🧩 Addons Exclusivos</h2>
+    <div class="item">• Autos: <strong>$7000</strong> – Vehículos únicos y modificados</div>
+    <div class="item">• Helicópteros: <strong>$11000</strong> – Modelos especiales</div>
+    <div class="item">• Barcos: <strong>$17000</strong> – Uso exclusivo en ciertas zonas</div>
+  </div>
+
+  <div class="category">
+    <h2>🏠 Propiedades</h2>
+    <div class="item">• Casa con garage: <strong>$5000</strong> – Elegí ubicación</div>
+    <div class="item">• Casa sin garage: <strong>$3500</strong> – Ideal para empezar</div>
+  </div>
+
+  <div class="category">
+    <h2>💸 Beneficios VIP</h2>
+    <div class="item">• VIP Plata: <strong>$3000</strong> – Acceso anticipado</div>
+    <div class="item">• VIP Oro: <strong>$6000</strong> – Recompensas diarias</div>
+    <div class="item">• VIP Diamante: <strong>$9000</strong> – Todo incluido</div>
+  </div>
+
+</div>
+
+<footer>
+  © 2025 BlindadosRP. Todos los derechos reservados.
+</footer>
+
 </body>
 </html>
